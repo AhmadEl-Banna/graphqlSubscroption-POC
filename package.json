@@ -1,0 +1,14 @@
+{
+  "name": "graphqlSubscroption",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AhmadEl-Banna/graphqlSubscroption-POC.git",
+  "author": "Ahmad El-Banna <ahmadelbanna80@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "cd server & yarn start:watch",
+    "mobile" :"cd chatApp & react-native run-ios",
+    "start": "yarn serve & yarn mobile"
+  }
+
+}
